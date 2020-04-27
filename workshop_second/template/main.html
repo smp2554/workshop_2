@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Shopping_mall - 메인</title>
+   <meta charset="utf-8">
+   <link type="text/css" rel="stylesheet" href="/static/style.css">
+    
+</head>
+    
+    
+        
+    
+<body>
+    <div id="main">
+      <center>
+      {% if username  %}
+          <h1> ★ Welcome!! {{ username }} VIP 고객님!★ </h1>
+          <h1> 쇼핑몰에 오신 것을 환영합니다</h1>
+          <h2><button><a href="/logout">logout</a></button></h2>
+      {% else %}
+          <h1> Welcome </h1>
+          <h1> VIP 고객님만을 위한 쇼핑몰에 오신 것을 환영합니다</h1>
+          <h2><button><a href="/login_page">login</a></button></h2>
+      {% endif %}
+      </center>   
+      </div>
+   
+    
+</body>
+    
+</html>

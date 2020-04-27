@@ -1,0 +1,67 @@
+#container{
+            display:grid;
+/*             border:5px dotted green; */
+/*             background:rgb(253, 253, 188); */
+            grid-template-columns:50fr 50fr 50fr;
+            text-align: center;
+    margin: 10px;
+    color: white;}
+
+#main{
+    
+    margin: 30px;
+    padding:30px;
+    display:grid;
+    justify-content: center;
+    color: white; 
+}
+
+#main > center {
+    padding: 0 30px;
+}
+
+#main > center:after {
+    background-color: #000;
+    opacity: 0.4;
+}
+
+
+
+
+
+body{
+    background-image:url("rodion-kutsaev-049M_crau5k-unsplash.jpg");
+    color : white;
+    
+}
+
+button {
+
+  background-color: yellowgreen;
+
+  border: none;
+
+  color: white;
+
+  padding: 8px 10px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 20px;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+
+}
+
+center{ color: white; }
+
+
+#shop_color {
+    color : white;
+}
